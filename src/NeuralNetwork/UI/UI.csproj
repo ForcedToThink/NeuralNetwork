@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NeuralNetwork.Engine\NeuralNetwork.Engine.csproj">
+      <Project>{55058d23-b8e1-4992-9f69-d0325328bf1d}</Project>
+      <Name>NeuralNetwork.Engine</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

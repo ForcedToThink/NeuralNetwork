@@ -40,7 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActvationFunctions\RectifiedActivationFunction.cs" />
+    <Compile Include="ActvationFunctions\SigmoidActivationFunction.cs" />
+    <Compile Include="ActvationFunctions\StepActivationFunction.cs" />
+    <Compile Include="IActivationFunction.cs" />
+    <Compile Include="IInputFunction.cs" />
+    <Compile Include="INeuron.cs" />
+    <Compile Include="InputFunctions\WeightedSumFunction.cs" />
+    <Compile Include="InputSynapse.cs" />
+    <Compile Include="ISynapse.cs" />
+    <Compile Include="NeuralLayer.cs" />
+    <Compile Include="NeuralLayerFactory.cs" />
+    <Compile Include="Neuron.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleNeuralNetwork.cs" />
+    <Compile Include="Synapse.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
