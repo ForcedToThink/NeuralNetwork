@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{DCAB15DB-9C8B-4780-9E26-C68E6209A599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetwork.Engine", "NeuralNetwork.Engine\NeuralNetwork.Engine.csproj", "{55058D23-B8E1-4992-9F69-D0325328BF1D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCAB15DB-9C8B-4780-9E26-C68E6209A599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAB15DB-9C8B-4780-9E26-C68E6209A599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAB15DB-9C8B-4780-9E26-C68E6209A599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAB15DB-9C8B-4780-9E26-C68E6209A599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55058D23-B8E1-4992-9F69-D0325328BF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55058D23-B8E1-4992-9F69-D0325328BF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55058D23-B8E1-4992-9F69-D0325328BF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55058D23-B8E1-4992-9F69-D0325328BF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
